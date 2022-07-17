@@ -1,0 +1,7 @@
+HTML 파일 구조
+- index.html : 첫 실행화면
+
+CSS 파일 구조
+- main.css : index.html 연결
+
+태그 이름 설명
