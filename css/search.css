@@ -1,0 +1,44 @@
+#search_layout {
+
+}
+#search_layout input {
+    height: 50px;
+    width: 450px;
+    font-size: 1.5em;
+}
+#search_layout button {
+height: 60px;
+width: 70px;
+border:0;
+outline:0;
+background-color: #fff;
+}
+#icon_m{
+    width: 45px;
+}
+
+#search_bar{
+    display: inline-block;
+    position:relative;
+}
+#bar {
+    position:relative;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bar_img{
+    display: inline-block;
+
+    position:relative;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bar_img > button {
+    padding: 0px;
+    width: 56px;
+    height: 56px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="MAIN">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mypage.css">
+</head>
+<body id="background">
+    <div id="body_layout">
+        <header>
+            <div class="text-align-left">
+                <div id="main_logo">
+                    <a href="index.html">
+                        <p class="logo" id="My">My</p>
+                        <P class="logo" id="Planner">Planner</P>
+                    </a>
+                </div>
+            </div>
+            <div id="navbar_wrapper">
+                <ul id="navbar_menu">
+                    <ls><a class="menu_style" href="index.html">Home</a></ls>
+                    <ls><a class="menu_style" href="Planner.html">Planner</a></ls>
+                    <ls><a class="menu_style" href="Search.html">Search</a></ls>
+                    <ls><a class="menu_style" href="MyPage.html">My Page</a></ls>
+                </ul>
+                <div id="navbar_login">
+                    <a href="login.html">
+                        <img src="icon/login_icon.png" alt="icon">
+                        <p id="p_login">login</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <hr/>
+
+        <body>
+            <div id="top_layout">
+                <div id="top_left">
+                    <img id="user_icon" src="icon/user.png">
+                    <div id="user_info">
+                        <p class="setting_p">회원정보</p>
+                        <P id="user_num" class="info_p">000001</P>                        
+                        
+                        <p class="setting_p">이름</p>
+                        <P id="user_name" class="info_p">오승환</P>
+                        
+                        <p class="setting_p">이메일</p>
+                        <P id="user_email" class="info_p">seunghwanoo@kakao.com</P>
+                    </div>
+                    <div id="user_btn">
+                        <button class="btn_set" onclick="location.href='my_page/user_page.html'">
+                            회원 정보 수정
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="top_right">
+                    <div id="count_left">
+                        <p class="count_name" class="count_set">MY PLAN</p>
+                        <p class="count_name" class="count_set">LIKE</p>
+                    </div>
+                    <div id="count_right">
+                        <p class="count_name" class="count_set">3</p>
+                        <p class="count_name" class="count_set">16</p>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div id="bottom_layout"></div>
+        </body>
+    </div>
+</body>
