@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>iframe_tag_domestic</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="domestic">
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/1.html')">
+            서울
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/2.html')">
+            경기도
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/3.html')">
+            강원도
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/4.html')">
+            충청도
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('5_2.html')">
+            전라도
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/6.html')">
+            경상도
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/7.html')">
+            부산
+        </button>
+        <button class="tag_btn_style" type="button" onclick="changeIframeUrlMainContents('/domestic_tag/8.html')">
+            제주도
+        </button>
+    </div>
+    <div class="card_view_layout">
+        <iframe id="card_view_frame" src="sc_tag_domestic.html" width="auto" height="auto"frameborder="0" scrolling="no" maginwidth="0" marginheight="0" frameborder="0" style="    width: 1205px;
+        height: 610px;"></iframe>
+    </div>
+    <script>
+        function changeIframeUrlMainContents(url) {
+            document.getElementById("card_view_frame").src = url;
+        }
+    </script>
+</body>
+</html>

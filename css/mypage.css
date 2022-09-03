@@ -51,9 +51,23 @@
     vertical-align: top;
     text-align: left;
 }
-#count_left {
-    display: inline-block;
+
+#count_icon img {
+    width: 150px;
+    margin: 30px 30px;
 }
-#count_right {
+#count_bottom p {
     display: inline-block;
+    font-weight:bold;
+}
+
+.count {
+    font-size:36px;
+    margin: 0px 50px;
+}
+
+.count_name {
+    display: inline;
+    font-size:36px;
+    margin: 0px 90px;
 }

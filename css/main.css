@@ -108,18 +108,27 @@ hr {
     background-color: #F2F5F8;
 
     position:relative;
-    float:right;
     display: flex;
 }
+
+#my_plan_list p {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size:30px;
+}
+
 #top_title {
     display: inline-block;
 }
-#top_title > p {
-    font-size: 28px; 
-    margin: 6px;
+#top_title img {
+    width: 605px;
+    height:290px;
 
 }
-
+.box{
+    display: inline-block;
+}
 
 /*my_list_contents*/
 /*tag_layout*/
@@ -195,4 +204,43 @@ hr {
 #none {
     display: block;
     height:45.6px;
+}
+
+.domestic {
+    height: 45.6px;
+}
+.overseas {
+    height: 45.6px;
+}
+
+.day {
+    vertical-align:bottom; 
+    text-align: right;
+    margin-top: 60px;
+}
+.day p{
+    color: #ffffff;
+    margin:3px 7px;
+}
+
+.heart{
+    margin: 14px 4px;
+    display: inline-block;
+}
+.map{
+    display: inline-block;
+}
+.map img {
+    height: 20px;
+
+
+}
+.map p {
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 5px;
+}
+#slide img {
+    width: 480;
+    height:290px
 }
